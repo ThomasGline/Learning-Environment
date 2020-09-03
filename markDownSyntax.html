@@ -5,106 +5,112 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body marginwidth="7%">
-        <header>
-            <h1>SyntaxMarkdown</h1>
-            <hr size="1px" color="E1F1F1">
-        </header>
-            <h2>Basic syntax</h2>
-            <hr size="1px" color="E1F1F1">
-            <ol>
-                <li><h3>Heading :</h3>
-                <ul>
-                    <li># H1</li>
-                    <li>## H2</li>
-                    <li>### H3</li>
-                    <li>...</li>
-                </li>
-                </ul>
-
-
-                <li><h3>Bold :</h3>
-                <ul>
-                    <li>**Bold**</li>
-                    <li>__Also bold__</li>
-                </li>
-                </ul>
-
-
-                <li><h3>Italic :</h3>
-                <ul>
-                    <li>*Italic*</li>
-                    <li>_Also italic_</li>
-                </li>
-                </ul>
-
-
-                <li><h3>Blockquote</h3>
-                <ul>
-                    <li>> blockquote</li>
-                </li>
-                </ul>
-
-
-                <li><h3>Ordered List</h3>
-                <ol>
-                    <li>First item</li>
+        <div id="box">
+            <div class="box1">
+                <header>
+                    <h1>SyntaxMarkdown</h1>
+                    <hr size="1px" color="E1F1F1">
+                </header>
+                    <h2>Basic syntax</h2>
+                    <hr size="1px" color="E1F1F1">
+            </div>
+            <div class="box2">
                     <ol>
-                        <li>First item b</li>
+                        <li><h3>Heading :</h3>
+                        <ul>
+                            <li># H1</li>
+                            <li>## H2</li>
+                            <li>### H3</li>
+                            <li>...</li>
+                        </li>
+                        </ul>
+
+
+                        <li><h3>Bold :</h3>
+                        <ul>
+                            <li>**Bold**</li>
+                            <li>__Also bold__</li>
+                        </li>
+                        </ul>
+
+
+                        <li><h3>Italic :</h3>
+                        <ul>
+                            <li>*Italic*</li>
+                            <li>_Also italic_</li>
+                        </li>
+                        </ul>
+
+
+                        <li><h3>Blockquote</h3>
+                        <ul>
+                            <li>> blockquote</li>
+                        </li>
+                        </ul>
+
+
+                        <li><h3>Ordered List</h3>
+                        <ol>
+                            <li>First item</li>
+                            <ol>
+                                <li>First item b</li>
+                            </ol>
+                            <li>Second item</li>
+                            <li>Third item</li>
+                            <li>...</li>
+                        </li>
+                        </ol>
+
+
+                        <li><h3>Unordered List :</h3>
+                        <ul>
+                            <li>- First item</li>
+                            <ul>
+                                <li>- First item b</li>
+                            </ul>
+                            <li>- Second item</li>
+                            <li>- Third item</li>
+                        </li>                
+                        </ul>
+
+
+                        <li><h3>code :</h3>
+                        <ul>
+                            <li>'code'</li>
+                        </li>
+                        </ul>
+
+
+                        <li><h3>Horizontal Rule :</h3>
+                        <ul>
+                            <li>'---'</li>
+                        </li>
+                        </ul>
+
+
+                        <li><h3>Link :</h3>
+                        <ul>
+                            <li><a href="http://github.com">http://github.com</a> - automatic!</li>
+                            <li>[GitHub](<a href="http://github.com">http://github.com</a>)</li>
+                        </li>
+                        </ul>
+
+
+                        <li><h3>Image :</h3>
+                        <ul>
+                            <li>![GitHub Logo](/images/logo.png)</li>
+                            <li>Format: ![Alt Text](url)</li>
+                        </li>
+                        </ul>
                     </ol>
-                    <li>Second item</li>
-                    <li>Third item</li>
-                    <li>...</li>
-                </li>
-                </ol>
-
-
-                <li><h3>Unordered List :</h3>
-                <ul>
-                    <li>- First item</li>
-                    <ul>
-                        <li>- First item b</li>
-                    </ul>
-                    <li>- Second item</li>
-                    <li>- Third item</li>
-                </li>                
-                </ul>
-
-
-                <li><h3>code :</h3>
-                <ul>
-                    <li>'code'</li>
-                </li>
-                </ul>
-
-
-                <li><h3>Horizontal Rule :</h3>
-                <ul>
-                    <li>'---'</li>
-                </li>
-                </ul>
-
-
-                <li><h3>Link :</h3>
-                <ul>
-                    <li><a href="http://github.com">http://github.com</a> - automatic!</li>
-                    <li>[GitHub](<a href="http://github.com">http://github.com</a>)</li>
-                </li>
-                </ul>
-
-
-                <li><h3>Image :</h3>
-                <ul>
-                    <li>![GitHub Logo](/images/logo.png)</li>
-                    <li>Format: ![Alt Text](url)</li>
-                </li>
-                </ul>
-            </ol>
-
-
-            <h2>Extended syntax</h2>
-            <hr size="1px" color="E1F1F1">
-            for more advanced syntax, go to <a href="https://guides.github.com/features/mastering-markdown/">guides.github</a><br>
-            Lien vers la présentation <a href="markdown.html">MarkDown</a><br>
-            alert("Bye !");
+            </div>
+            <div class="box3">
+                    <h2>Extended syntax</h2>
+                    <hr size="1px" color="E1F1F1">
+                    for more advanced syntax, go to <a href="https://guides.github.com/features/mastering-markdown/">guides.github</a><br>
+                    Lien vers la présentation <a href="markdown.html">MarkDown</a><br>
+                    alert("Bye !");
+            </div>
+        </div>
     </body>
 </html>
