@@ -1,0 +1,21 @@
+body{
+    text-align: justify;
+    font-family: Arial;
+    line-height: 1.5em;
+}
+hr{
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: #1A00F5;
+}
+a:hover{
+    color: #07B1F5;
+}
+ul{
+    list-style-type: disc;
+}
